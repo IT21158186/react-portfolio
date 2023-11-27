@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/react-portfolio%20/static/css/main.7ef96e6c.css",
+    "main.js": "/react-portfolio%20/static/js/main.aabd8534.js",
+    "static/media/me3.jpg": "/react-portfolio%20/static/media/me3.971f33d7a71d30a695b1.jpg",
+    "static/media/me2.jpg": "/react-portfolio%20/static/media/me2.82945f74914cfc42f1de.jpg",
+    "static/media/me1.jpg": "/react-portfolio%20/static/media/me1.ec6825f092679e6d46d1.jpg",
+    "static/media/aboutme.jpg": "/react-portfolio%20/static/media/aboutme.d6087e5e9c48fa179544.jpg",
+    "static/media/michael-yeates-resume.pdf": "/react-portfolio%20/static/media/michael-yeates-resume.f6ca397c5b66aa6d1044.pdf",
+    "static/media/logo.png": "/react-portfolio%20/static/media/logo.fb08cd6cbac797890e6d.png",
+    "index.html": "/react-portfolio%20/index.html",
+    "static/media/close.svg": "/react-portfolio%20/static/media/close.313a8e6ce95e72014ca00fb56d8b3ff3.svg",
+    "static/media/open.svg": "/react-portfolio%20/static/media/open.196e865822b06a50385b031f9913c3a0.svg",
+    "main.7ef96e6c.css.map": "/react-portfolio%20/static/css/main.7ef96e6c.css.map",
+    "main.aabd8534.js.map": "/react-portfolio%20/static/js/main.aabd8534.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7ef96e6c.css",
+    "static/js/main.aabd8534.js"
+  ]
+}
