@@ -1,6 +1,6 @@
 {
   "name": "my-portfolio",
-  "homepage": "https://it21158186.github.io/it21158186.github.io",
+  "homepage": "https://it21158186.github.io/react-portfolio ",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -24,7 +24,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build -r https://github.com/GayashanDeshapriya/gayashandeshapriya.github.io.git"
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
