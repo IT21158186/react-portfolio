@@ -1,0 +1,61 @@
+/* --- MOBILE STYLES --- */
+
+.landing .name {
+  font-size: 48px;
+}
+
+.landing .description {
+  font-size: 26px;
+}
+
+.landingImage {
+  right: 0px;
+}
+
+.landing .socialIcons {
+  display: flex;
+  position: absolute;
+  left: 50px;
+  bottom: 20px;
+}
+
+/* --- MEDIA QUERIES --- */
+
+@media (min-width: 750px) {
+  .landing .name {
+    font-size: 70px;
+    left: 100px;
+  }
+
+  .landing .description {
+    font-size: 32px;
+  }
+
+  .landingImage1 {
+    position: absolute;
+    bottom: 0;
+    right: 200px;
+    width: 320px; /* Adjust the width as needed */
+    height: 100px; /* Adjust the height as needed */
+  }
+
+  .landingImage2 {
+    position: absolute;
+    bottom: 0;
+    left: 200px; /* Adjust the right position as needed */
+    width: 320px; /* Adjust the width as needed */
+    height: 100px; /* Adjust the height as needed */
+  }
+
+  .landingImage3 {
+    position: absolute;
+    bottom: 0;
+    left: 610px; /* Adjust the left position as needed */
+    width: 320px; /* Adjust the width as needed */
+    height: 100px; /* Adjust the height as needed */
+  }
+
+  .landing .socialIcons {
+    flex-direction: column;
+  }
+}

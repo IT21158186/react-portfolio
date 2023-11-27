@@ -1,0 +1,25 @@
+[
+  {
+    "title": "Pocket Guard",
+    "image": "./projectImages/pocket.png",
+    "description": "Pocket Guard is a personal finance app that helps individuals to manage their finances and reach their saving goals. With Pocket Guard, users can track their expenses and monitor their budget in real-time.",
+    "technologies": "Kotlin | Android Studio",
+    "github": "https://github.com/GayashanDeshapriya/PocketGuard_MobileApp.git",
+    "deployed": "https://norrinradd8.github.io/bike_buddy/",
+    "bgcolor": "#232323",
+    "id": "1"
+  },
+  {
+    "title": "UFS Logistic Company Website",
+    "image": "./projectImages/ufs.png",
+    "description": "This is the Official website of UNIVERSAL FREIGHT SOLUTION LLC, Located in UAE",
+    "technologies": "React | HTML | Boostrap | CSS |EmailJs",
+    "github": "https://github.com/GayashanDeshapriya/PocketGuard_MobileApp.git",
+    "deployed": "https://ufsdxb.com/",
+    "bgcolor": "#232323",
+    "id": "2"
+  }
+  
+  
+  
+]
