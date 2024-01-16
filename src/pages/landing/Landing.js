@@ -56,10 +56,22 @@ const Landing = ({ name, tagline }) => {
     },
   };
 
-  const [ref, inView] = useInView({
-    threshold: 0.1,
-    triggerOnce: true,
-  });
+  // Create separate refs for each image
+const [ref1, inView1] = useInView({
+  threshold: 0, // Set threshold to 0 for immediate trigger
+  triggerOnce: true,
+});
+
+const [ref2, inView2] = useInView({
+  threshold: 0,
+  triggerOnce: true,
+});
+
+const [ref3, inView3] = useInView({
+  threshold: 0,
+  triggerOnce: true,
+});
+
 
   return (
     <section className="landing" style={styles.landing}>
@@ -67,18 +79,18 @@ const Landing = ({ name, tagline }) => {
         <motion.h1
           className="name"
           style={styles.name}
-          ref={ref}
+          ref={ref1} // Use ref1 for the first motion element
           initial={{ y: "-10vw", opacity: 0 }}
-          animate={inView ? { y: 0, opacity: 1 } : { y: "-10vw", opacity: 0 }}
+          animate={inView1 ? { y: 0, opacity: 1 } : { y: "-10vw", opacity: 0 }}
           transition={{ duration: 0.8, ease: "easeInOut" }}
         >
           {name}
         </motion.h1>
         <motion.p
           className="description"
-          ref={ref}
+          ref={ref1} // Use ref1 for the second motion element
           initial={{ y: "10vw", opacity: 0 }}
-          animate={inView ? { y: 0, opacity: 1 } : { y: "10vw", opacity: 0 }}
+          animate={inView1 ? { y: 0, opacity: 1 } : { y: "10vw", opacity: 0 }}
           transition={{ duration: 0.8, ease: "easeInOut" }}
         >
           {tagline}
@@ -88,9 +100,9 @@ const Landing = ({ name, tagline }) => {
       <div className="image-container1">
         <motion.img
           className="landingImage1"
-          ref={ref}
+          ref={ref1} // Use ref1 for the first image
           initial={{ y: "10vw", opacity: 0 }}
-          animate={inView ? { y: 0, opacity: 0.4 } : { y: "10vw", opacity: 0 }}
+          animate={inView1 ? { y: 0, opacity: 0.4 } : { y: "10vw", opacity: 0 }}
           transition={{ duration: 1, ease: "easeInOut" }}
           style={styles.landingImage1}
           src={landingImage1}
@@ -100,9 +112,9 @@ const Landing = ({ name, tagline }) => {
       <div className="image-container2">
         <motion.img
           className="landingImage2"
-          ref={ref}
+          ref={ref2} // Use ref2 for the second image
           initial={{ y: "10vw", opacity: 0 }}
-          animate={inView ? { y: 0, opacity: 0.4 } : { y: "10vw", opacity: 0 }}
+          animate={inView2 ? { y: 0, opacity: 0.4 } : { y: "10vw", opacity: 0 }}
           transition={{ duration: 1, ease: "easeInOut" }}
           style={styles.landingImage2}
           src={landingImage2}
@@ -112,9 +124,9 @@ const Landing = ({ name, tagline }) => {
       <div className="image-container3">
         <motion.img
           className="landingImage3"
-          ref={ref}
+          ref={ref3} // Use ref3 for the third image
           initial={{ y: "10vw", opacity: 0 }}
-          animate={inView ? { y: 0, opacity: 0.4 } : { y: "10vw", opacity: 0 }}
+          animate={inView3 ? { y: 0, opacity: 0.4 } : { y: "10vw", opacity: 0 }}
           transition={{ duration: 1, ease: "easeInOut" }}
           style={styles.landingImage3}
           src={landingImage3}
